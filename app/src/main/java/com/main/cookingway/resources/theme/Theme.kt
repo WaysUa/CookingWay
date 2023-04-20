@@ -1,4 +1,4 @@
-package com.main.cookingway.ui.theme
+package com.main.cookingway.resources.theme
 
 import android.app.Activity
 import android.os.Build
@@ -22,7 +22,7 @@ private val DarkColorScheme = darkColorScheme(
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
+    primary = Turquoise,
     secondary = PurpleGrey40,
     tertiary = Pink40
 
@@ -40,7 +40,6 @@ private val LightColorScheme = lightColorScheme(
 @Composable
 fun CookingWayTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
-    // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,
     content: @Composable () -> Unit
 ) {
